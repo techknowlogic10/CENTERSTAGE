@@ -20,6 +20,7 @@ public class DCMotorTest extends LinearOpMode {
 
         telemetry.log().add("Hello, this is DCMotor test");
         dcMotor.setPower(0.5);
+       telemetry.log().add("Speed cmg back to 0");
         sleep(5000);
     }
 }
