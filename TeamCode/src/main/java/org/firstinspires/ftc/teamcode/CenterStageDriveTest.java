@@ -138,6 +138,10 @@ public class CenterStageDriveTest extends OpMode {
         double backLeftPower = (y - x + rx) / denominator;
         double frontRightPower = (y - x - rx) / denominator;
         double backRightPower = (y + x - rx) / denominator;
+
+        telemetry.addLine("denominator: "+ denominator +" , frontLeftPower: "+ frontLeftPower + " , backLeftPower: +"+ backLeftPower +", frontRightPower: "+frontRightPower +" , backRightPower: "+backRightPower);
+
+
        /* double y = gamepad1.left_stick_y;
         double x = -gamepad1.left_stick_x;
 
